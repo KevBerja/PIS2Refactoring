@@ -1,0 +1,93 @@
+package videostore;
+
+import static org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.Test;
+
+
+public class TestsVideoStore {
+
+		// Movies
+		private Movie fastandfurious;
+		private Movie up;
+		private Movie titanic;
+
+		// Rentals
+
+		private Rental rFastandfurious;
+		private Rental rUp;
+		private Rental rTitanic;
+
+		// Customers
+		private Customer david;
+		private Customer alberto;
+
+		@Before
+
+		public void setUp() {
+
+			// Set Up Movies
+			fastandfurious = new Movie("Fast and Furious 8", Movie.NEW_RELEASE);
+			up = new Movie("Up", Movie.CHILDRENS);
+			titanic = new Movie("Titanic", Movie.REGULAR);
+
+			// Set Up Rentals
+			rFastandfurious = new Rental(fastandfurious, 4);
+			rUp = new Rental(up, 7);
+			rTitanic = new Rental(titanic, 10);
+
+			// Set Up Customers
+			david = new Customer("David");
+			alberto = new Customer("Alberto");
+		}
+
+		@Test
+		public void testGetTitleMovie() {
+			String movieTitle = "";
+		
+			Movie movie = this.fastandfurious;
+			movieTitle = "Fast and Furious 8";
+			
+			assertEquals(movie.getTitle(), movieTitle);
+
+		}
+		
+		@Test
+		public void testGetCustomerName() {
+			String customer = "";
+			Customer cust = this.alberto;
+			customer = "Alberto";
+			
+			assertEquals(cust.getName(), customer);
+		}
+		
+		@Test
+
+		public void testCustomerStatement() {
+			String statements = "";
+			Customer[] customers = new Customer[2];
+			customers[0] = this.david;
+			customers[1] = this.alberto;
+
+			for (int i = 0; i < customers.length; i++) {
+				statements += customers[i].statement();
+				if (i < customers.length - 1)
+					statements += "\n\n";
+			}
+
+			System.out.println(statements);
+			assertEquals(
+					"Rental Record for Federico\n\tBuscando a Nemo\t7.5\n\tInception\t15.0\nAmount owed is 22.5\nYou earned 3 frequent renter points\n\nRental Record for Francisco\n\tThe Ring\t3.5\nAmount owed is 3.5\nYou earned 1 frequent renter points",
+					statements);
+		}
+		
+		@Test
+		public void testAddRentalToCustomer() {
+
+			String rental = "";
+			this.david.addRental(rUp);
+			rental = this.david.statement();
+
+			assertEquals("Rental Record for David\n\tUp\t7.5\nAmount owed is 7.5\nYou earned 1 frequent renter points", rental);
+	}
+}
