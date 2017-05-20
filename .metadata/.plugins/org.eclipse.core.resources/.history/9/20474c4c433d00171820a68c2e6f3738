@@ -1,0 +1,59 @@
+package videostore;
+
+import static org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.Test;
+
+
+public class TestsVideoStore {
+
+	public class Tests {
+
+		// Movies
+		private Movie fastandfurious;
+		private Movie americanpie;
+		private Movie titanic;
+
+		// Rentals
+
+		private Rental rFastandfurious;
+		private Rental rAmericanpie;
+		private Rental rTitanic;
+
+		// Customers
+		private Customer david;
+		private Customer alberto;
+
+		@Before
+
+		public void setUp() {
+
+			// Set Up Movies
+			fastandfurious = new Movie("Fast and Furious 8", Movie.CHILDRENS);
+			americanpie = new Movie("American Pie 6", Movie.REGULAR);
+			titanic = new Movie("Titanic", Movie.NEW_RELEASE);
+
+			// Set Up Rentals
+			rFastandfurious = new Rental(fastandfurious, 7);
+			rAmericanpie = new Rental(americanpie, 3);
+			rTitanic = new Rental(titanic, 5);
+
+			// Set Up Customers
+			david = new Customer("David");
+			alberto = new Customer("Alberto");
+			
+
+		}
+
+		@Test
+		public void testGetTitleMovie() {
+			String movieTitle = "";
+		
+			Movie movie = this.fastandfurious;
+			movieTitle = "Fast and Furious 8";
+			
+			assertEquals(this.fastandfurious.getTitle(), movieTitle);
+
+		}
+	}
+}
