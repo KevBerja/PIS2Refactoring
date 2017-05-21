@@ -106,4 +106,16 @@ public class TestsVideoStore {
 			}
 			assertEquals("Rental Record for David\n\tFast and Furious 8\t12.0\n\tTitanic\t14.0\nAmount owed is 26.0\nYou earned 3 frequent renter points\n\nRental Record for Alberto\n\tUp\t7.5\nAmount owed is 7.5\nYou earned 1 frequent renter points", statement);
 		}	
+		
+		@Test
+		public void testCustomerStatementHTML() {
+			String statementHTML = "";
+			
+			Customer customer = this.alberto;
+			alberto.addRental(rTitanic);
+			
+			statementHTML = customer.htmlStatement();
+
+			assertEquals("<H1>Rentals for <EM>Alberto</EM></H1><P>\nTitanic: 14.0<BR>\n<P>You owe <EM>14.0</EM><P>\nOn this rental you earned <EM>1</EM> frequent renter points<P>", statementHTML);
+		}
 }
