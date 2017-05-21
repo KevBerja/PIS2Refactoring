@@ -1,12 +1,11 @@
 
-dsquid:S1153?"1Directly append the argument of String.valueOf().(´ÉÛ®8îÅ™©Â+HRMINORZ
+Osquid:S16439"Use a StringBuilder instead.(úÀ‚ì8îÅ™©Â+HRMINORZ
 CODE_SMELL
-csquid:S1153@"1Directly append the argument of String.valueOf().(“©ãR8îÅ™©Â+HRMINORZ
+dsquid:S1153:"1Directly append the argument of String.valueOf().(ÚÇ¯„8îÅ™©Â+HRMINORZ
 CODE_SMELL
-Osquid:S16439"Use a StringBuilder instead.(úÀ‚ì8îÅ™©Â+H
-RMINORZ
+squid:S1149	"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Š£Ä±úÿÿÿÿ8·ü¡©Â+HRMAJORZ
 CODE_SMELL
-dsquid:S1153:"1Directly append the argument of String.valueOf().(ÚÇ¯„8îÅ™©Â+HRMINORZ
+csquid:S1153@"1Directly append the argument of String.valueOf().(“©ãR8îÅ™©Â+HRMINORZ
 CODE_SMELL
-squid:S1149	"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Š£Ä±úÿÿÿÿ8·ü¡©Â+HRMAJORZ
+dsquid:S1153?"1Directly append the argument of String.valueOf().(´ÉÛ®8îÅ™©Â+H RMINORZ
 CODE_SMELL
