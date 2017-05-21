@@ -29,7 +29,7 @@ class Customer {
 			double thisAmount = 0;
 			Rental each = (Rental) rentals.nextElement();
 			
-			frequentRenterPoints += each.getFrequentRenterPoints();
+			//frequentRenterPoints += each.getFrequentRenterPoints();
 			
 			/*// add frequent renter points
 			frequentRenterPoints ++;
@@ -110,12 +110,12 @@ class Customer {
 		return result;
 	}
 	
-	private int getTotalFrequentRenterPoints() {
+    private int getTotalFrequentRenterPoints() {
 		int result = 0;
 		Enumeration rentals = _rentals.elements();
 		while (rentals.hasMoreElements()) {
 			Rental each = (Rental) rentals.nextElement();
-			result += each.getFrequentRenterPoints();
+			result += each.getFrequentRenterPoints(each.getDaysRented());
 		}
 		return result;
 	}

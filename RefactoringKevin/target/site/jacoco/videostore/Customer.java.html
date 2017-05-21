@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Customer.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">RefactoringKevin</a> &gt; <a href="index.source.html" class="el_package">videostore</a> &gt; <span class="el_source">Customer.java</span></div><h1>Customer.java</h1><pre class="source lang-java linenums">package videostore;
+
+import java.util.Enumeration;
+import java.util.Vector;
+
+class Customer {
+	
+	private String _name;
+<span class="nc" id="L9">	private Vector _rentals = new Vector();</span>
+
+<span class="nc" id="L11">	public Customer(String name) {</span>
+<span class="nc" id="L12">		_name = name;</span>
+<span class="nc" id="L13">	};</span>
+
+	public void addRental(Rental arg) {
+<span class="nc" id="L16">		_rentals.addElement(arg);</span>
+<span class="nc" id="L17">	}</span>
+
+	public String getName (){
+<span class="nc" id="L20">		return _name;</span>
+	}
+	
+	public String statement() {
+<span class="nc" id="L24">		double totalAmount = 0;</span>
+<span class="nc" id="L25">		int frequentRenterPoints = 0;</span>
+<span class="nc" id="L26">		Enumeration rentals = _rentals.elements();</span>
+<span class="nc" id="L27">		String result = &quot;Rental Record for &quot; + getName() + &quot;\n&quot;;</span>
+<span class="nc bnc" id="L28" title="All 2 branches missed.">		while (rentals.hasMoreElements()) {</span>
+<span class="nc" id="L29">			double thisAmount = 0;</span>
+<span class="nc" id="L30">			Rental each = (Rental) rentals.nextElement();</span>
+			
+			//frequentRenterPoints += each.getFrequentRenterPoints();
+			
+			/*// add frequent renter points
+			frequentRenterPoints ++;
+			// add bonus for a two day new release rental
+			if ((each.getMovie().getPriceCode() == Movie.NEW_RELEASE)
+			&amp;&amp; each.getDaysRented() &gt; 1) frequentRenterPoints ++;
+			*/
+			//thisAmount = each.getCharge();
+			
+			//thisAmount = amountFor (each);
+			
+			//determine amounts for each line
+			/*switch (each.getMovie().getPriceCode()) {
+				case Movie.REGULAR:
+					thisAmount += 2;
+					if (each.getDaysRented() &gt; 2)
+						thisAmount += (each.getDaysRented() - 2) * 1.5;
+					break;
+				case Movie.NEW_RELEASE:
+					thisAmount += each.getDaysRented() * 3;
+					break;
+				case Movie.CHILDRENS:
+					thisAmount += 1.5;
+					if (each.getDaysRented() &gt; 3)
+						thisAmount += (each.getDaysRented() - 3) * 1.5;
+					break;
+				}
+			*/
+			
+			
+			/*// add frequent renter points
+			frequentRenterPoints ++;
+			
+			// add bonus for a two day new release rental
+			if ((each.getMovie().getPriceCode() == Movie.NEW_RELEASE) &amp;&amp; each.getDaysRented() &gt; 1) 
+				frequentRenterPoints ++;
+			*/
+			//show figures for this rental
+<span class="nc" id="L71">			result += &quot;\t&quot; + each.getMovie().getTitle()+ &quot;\t&quot; +</span>
+<span class="nc" id="L72">			String.valueOf(each.getCharge()) + &quot;\n&quot;;</span>
+<span class="nc" id="L73">			totalAmount += thisAmount;</span>
+<span class="nc" id="L74">			}</span>
+		
+		//add footer lines
+<span class="nc" id="L77">		result += &quot;Amount owed is &quot; + String.valueOf(getTotalCharge()) + &quot;\n&quot;;</span>
+<span class="nc" id="L78">		result += &quot;You earned &quot; + String.valueOf(getTotalFrequentRenterPoints()) + &quot; frequent renter points&quot;;</span>
+<span class="nc" id="L79">		return result;</span>
+		}
+	
+	
+	private double amountFor(Rental aRental) {
+<span class="nc" id="L84">		double result = 0;</span>
+<span class="nc bnc" id="L85" title="All 4 branches missed.">		switch (aRental.getMovie().getPriceCode()) {</span>
+		case Movie.REGULAR:
+<span class="nc" id="L87">			result += 2;</span>
+<span class="nc bnc" id="L88" title="All 2 branches missed.">			if (aRental.getDaysRented() &gt; 2)</span>
+<span class="nc" id="L89">				result += (aRental.getDaysRented() - 2) * 1.5;</span>
+			break;
+		case Movie.NEW_RELEASE:
+<span class="nc" id="L92">			result += aRental.getDaysRented() * 3;</span>
+<span class="nc" id="L93">			break;</span>
+		case Movie.CHILDRENS:
+<span class="nc" id="L95">			result += 1.5;</span>
+<span class="nc bnc" id="L96" title="All 2 branches missed.">			if (aRental.getDaysRented() &gt; 3)</span>
+<span class="nc" id="L97">				result += (aRental.getDaysRented() - 3) * 1.5;</span>
+			break;
+		}
+<span class="nc" id="L100">		return result;</span>
+	}
+	
+	private double getTotalCharge() {
+<span class="nc" id="L104">		double result = 0;</span>
+<span class="nc" id="L105">		Enumeration rentals = _rentals.elements();</span>
+<span class="nc bnc" id="L106" title="All 2 branches missed.">		while (rentals.hasMoreElements()) {</span>
+<span class="nc" id="L107">			Rental each = (Rental) rentals.nextElement();</span>
+<span class="nc" id="L108">			result += each.getCharge();</span>
+<span class="nc" id="L109">		}</span>
+<span class="nc" id="L110">		return result;</span>
+	}
+	
+    private int getTotalFrequentRenterPoints() {
+<span class="nc" id="L114">		int result = 0;</span>
+<span class="nc" id="L115">		Enumeration rentals = _rentals.elements();</span>
+<span class="nc bnc" id="L116" title="All 2 branches missed.">		while (rentals.hasMoreElements()) {</span>
+<span class="nc" id="L117">			Rental each = (Rental) rentals.nextElement();</span>
+<span class="nc" id="L118">			result += each.getFrequentRenterPoints(each.getDaysRented());</span>
+<span class="nc" id="L119">		}</span>
+<span class="nc" id="L120">		return result;</span>
+	}
+	
+	public String htmlStatement() {
+<span class="nc" id="L124">		Enumeration rentals = _rentals.elements();</span>
+<span class="nc" id="L125">		String result = &quot;&lt;H1&gt;Rentals for &lt;EM&gt;&quot; + getName() + &quot;&lt;/EM&gt;&lt;/H1&gt;&lt;P&gt;\n&quot;;</span>
+		
+<span class="nc bnc" id="L127" title="All 2 branches missed.">		while (rentals.hasMoreElements()) {</span>
+<span class="nc" id="L128">			Rental each = (Rental) rentals.nextElement();</span>
+
+			// show figures for each rental
+<span class="nc" id="L131">			result += each.getMovie().getTitle() + &quot;: &quot; + String.valueOf(each.getCharge()) + &quot;&lt;BR&gt;\n&quot;;</span>
+<span class="nc" id="L132">		}</span>
+		// add footer lines
+<span class="nc" id="L134">		result += &quot;&lt;P&gt;You owe &lt;EM&gt;&quot; + String.valueOf(getTotalCharge()) + &quot;&lt;/EM&gt;&lt;P&gt;\n&quot;;</span>
+<span class="nc" id="L135">		result += &quot;On this rental you earned &lt;EM&gt;&quot; + String.valueOf(getTotalFrequentRenterPoints())</span>
+				+ &quot;&lt;/EM&gt; frequent renter points&lt;P&gt;&quot;;
+<span class="nc" id="L137">		return result;</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.8.201612092310</span></div></body></html>

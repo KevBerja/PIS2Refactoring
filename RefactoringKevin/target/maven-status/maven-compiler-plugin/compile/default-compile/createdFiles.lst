@@ -1,0 +1,7 @@
+videostore\Rental.class
+videostore\NewReleasePrice.class
+videostore\RegularPrice.class
+videostore\Customer.class
+videostore\Price.class
+videostore\ChildrensPrice.class
+videostore\Movie.class

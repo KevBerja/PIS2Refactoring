@@ -1,0 +1,480 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.85" branch-rate="0.5333333333333333" lines-covered="85" lines-valid="100" branches-covered="16" branches-valid="30" complexity="1.6551724137931034" version="2.1.1" timestamp="1495376862096">
+	<sources>
+		<source>C:/Users/Kevin/Universidad/4º Grado/Procesos de Ingeniería del Software II/Prácticas/Actividad08/RefactoringKevin/src</source>
+		<source>--source</source>
+		<source>C:/Users/Kevin/Universidad/4º Grado/Procesos de Ingeniería del Software II/Prácticas/Actividad08/RefactoringKevin/target/generated-sources/annotations</source>
+	</sources>
+	<packages>
+		<package name="videostore" line-rate="0.85" branch-rate="0.5333333333333333" complexity="1.6551724137931034">
+			<classes>
+				<class name="videostore.ChildrensPrice" filename="videostore/ChildrensPrice.java" line-rate="1.0" branch-rate="0.5" complexity="1.5">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="getCharge" signature="(I)D" line-rate="1.0" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="10" hits="4" branch="false"/>
+								<line number="11" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="12" hits="4" branch="false"/>
+								<line number="13" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="getPriceCode" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="6" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="7" branch="false"/>
+						<line number="6" hits="2" branch="false"/>
+						<line number="10" hits="4" branch="false"/>
+						<line number="11" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="12" hits="4" branch="false"/>
+						<line number="13" hits="4" branch="false"/>
+					</lines>
+				</class>
+				<class name="videostore.Customer" filename="videostore/Customer.java" line-rate="0.8" branch-rate="0.5" complexity="2.125">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="9" hits="14" branch="false"/>
+								<line number="11" hits="14" branch="false"/>
+								<line number="12" hits="14" branch="false"/>
+								<line number="13" hits="14" branch="false"/>
+							</lines>
+						</method>
+						<method name="addRental" signature="(Lvideostore/Rental;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="16" hits="5" branch="false"/>
+								<line number="17" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="amountFor" signature="(Lvideostore/Rental;)D" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="84" hits="0" branch="false"/>
+								<line number="85" hits="0" branch="true" condition-coverage="0% (0/4)">
+									<conditions>
+										<condition number="0" type="switch" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="87" hits="0" branch="false"/>
+								<line number="88" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="89" hits="0" branch="false"/>
+								<line number="92" hits="0" branch="false"/>
+								<line number="93" hits="0" branch="false"/>
+								<line number="95" hits="0" branch="false"/>
+								<line number="96" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="97" hits="0" branch="false"/>
+								<line number="100" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getName" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="20" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="getTotalCharge" signature="()D" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="104" hits="5" branch="false"/>
+								<line number="105" hits="5" branch="false"/>
+								<line number="106" hits="10" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="107" hits="5" branch="false"/>
+								<line number="108" hits="5" branch="false"/>
+								<line number="109" hits="5" branch="false"/>
+								<line number="110" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="getTotalFrequentRenterPoints" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="114" hits="5" branch="false"/>
+								<line number="115" hits="5" branch="false"/>
+								<line number="116" hits="10" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="117" hits="5" branch="false"/>
+								<line number="118" hits="5" branch="false"/>
+								<line number="119" hits="5" branch="false"/>
+								<line number="120" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="htmlStatement" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="124" hits="1" branch="false"/>
+								<line number="125" hits="1" branch="false"/>
+								<line number="127" hits="2" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="128" hits="1" branch="false"/>
+								<line number="131" hits="1" branch="false"/>
+								<line number="132" hits="1" branch="false"/>
+								<line number="134" hits="1" branch="false"/>
+								<line number="135" hits="1" branch="false"/>
+								<line number="137" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="statement" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="24" hits="4" branch="false"/>
+								<line number="25" hits="4" branch="false"/>
+								<line number="26" hits="4" branch="false"/>
+								<line number="27" hits="4" branch="false"/>
+								<line number="28" hits="8" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="29" hits="4" branch="false"/>
+								<line number="30" hits="4" branch="false"/>
+								<line number="71" hits="4" branch="false"/>
+								<line number="72" hits="4" branch="false"/>
+								<line number="73" hits="4" branch="false"/>
+								<line number="74" hits="4" branch="false"/>
+								<line number="77" hits="4" branch="false"/>
+								<line number="78" hits="4" branch="false"/>
+								<line number="79" hits="4" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="9" hits="14" branch="false"/>
+						<line number="11" hits="14" branch="false"/>
+						<line number="12" hits="14" branch="false"/>
+						<line number="13" hits="14" branch="false"/>
+						<line number="16" hits="5" branch="false"/>
+						<line number="17" hits="5" branch="false"/>
+						<line number="20" hits="6" branch="false"/>
+						<line number="24" hits="4" branch="false"/>
+						<line number="25" hits="4" branch="false"/>
+						<line number="26" hits="4" branch="false"/>
+						<line number="27" hits="4" branch="false"/>
+						<line number="28" hits="8" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="29" hits="4" branch="false"/>
+						<line number="30" hits="4" branch="false"/>
+						<line number="71" hits="4" branch="false"/>
+						<line number="72" hits="4" branch="false"/>
+						<line number="73" hits="4" branch="false"/>
+						<line number="74" hits="4" branch="false"/>
+						<line number="77" hits="4" branch="false"/>
+						<line number="78" hits="4" branch="false"/>
+						<line number="79" hits="4" branch="false"/>
+						<line number="84" hits="0" branch="false"/>
+						<line number="85" hits="0" branch="true" condition-coverage="0% (0/4)">
+							<conditions>
+								<condition number="0" type="switch" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="87" hits="0" branch="false"/>
+						<line number="88" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="89" hits="0" branch="false"/>
+						<line number="92" hits="0" branch="false"/>
+						<line number="93" hits="0" branch="false"/>
+						<line number="95" hits="0" branch="false"/>
+						<line number="96" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="97" hits="0" branch="false"/>
+						<line number="100" hits="0" branch="false"/>
+						<line number="104" hits="5" branch="false"/>
+						<line number="105" hits="5" branch="false"/>
+						<line number="106" hits="10" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="107" hits="5" branch="false"/>
+						<line number="108" hits="5" branch="false"/>
+						<line number="109" hits="5" branch="false"/>
+						<line number="110" hits="5" branch="false"/>
+						<line number="114" hits="5" branch="false"/>
+						<line number="115" hits="5" branch="false"/>
+						<line number="116" hits="10" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="117" hits="5" branch="false"/>
+						<line number="118" hits="5" branch="false"/>
+						<line number="119" hits="5" branch="false"/>
+						<line number="120" hits="5" branch="false"/>
+						<line number="124" hits="1" branch="false"/>
+						<line number="125" hits="1" branch="false"/>
+						<line number="127" hits="2" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="128" hits="1" branch="false"/>
+						<line number="131" hits="1" branch="false"/>
+						<line number="132" hits="1" branch="false"/>
+						<line number="134" hits="1" branch="false"/>
+						<line number="135" hits="1" branch="false"/>
+						<line number="137" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="videostore.Movie" filename="videostore/Movie.java" line-rate="0.8823529411764706" branch-rate="0.75" complexity="1.6666666666666667">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="13" hits="21" branch="false"/>
+								<line number="14" hits="21" branch="false"/>
+								<line number="16" hits="21" branch="false"/>
+								<line number="17" hits="21" branch="false"/>
+							</lines>
+						</method>
+						<method name="getCharge" signature="(I)D" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="79" hits="10" branch="false"/>
+							</lines>
+						</method>
+						<method name="getFrequentRenterPoints" signature="(I)I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="83" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getPriceCode" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="59" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="getTitle" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="28" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="setPriceCode" signature="(I)V" line-rate="0.8888888888888888" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="63" hits="21" branch="true" condition-coverage="75% (3/4)">
+									<conditions>
+										<condition number="0" type="switch" coverage="75%"/>
+									</conditions>
+								</line>
+								<line number="65" hits="7" branch="false"/>
+								<line number="66" hits="7" branch="false"/>
+								<line number="68" hits="7" branch="false"/>
+								<line number="69" hits="7" branch="false"/>
+								<line number="71" hits="7" branch="false"/>
+								<line number="72" hits="7" branch="false"/>
+								<line number="74" hits="0" branch="false"/>
+								<line number="76" hits="21" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="21" branch="false"/>
+						<line number="14" hits="21" branch="false"/>
+						<line number="16" hits="21" branch="false"/>
+						<line number="17" hits="21" branch="false"/>
+						<line number="28" hits="7" branch="false"/>
+						<line number="59" hits="5" branch="false"/>
+						<line number="63" hits="21" branch="true" condition-coverage="75% (3/4)">
+							<conditions>
+								<condition number="0" type="switch" coverage="75%"/>
+							</conditions>
+						</line>
+						<line number="65" hits="7" branch="false"/>
+						<line number="66" hits="7" branch="false"/>
+						<line number="68" hits="7" branch="false"/>
+						<line number="69" hits="7" branch="false"/>
+						<line number="71" hits="7" branch="false"/>
+						<line number="72" hits="7" branch="false"/>
+						<line number="74" hits="0" branch="false"/>
+						<line number="76" hits="21" branch="false"/>
+						<line number="79" hits="10" branch="false"/>
+						<line number="83" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="videostore.NewReleasePrice" filename="videostore/NewReleasePrice.java" line-rate="0.75" branch-rate="0.0" complexity="1.3333333333333333">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="getCharge" signature="(I)D" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="10" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="getFrequentRenterPoints" signature="(I)I" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="14" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method name="getPriceCode" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="6" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="7" branch="false"/>
+						<line number="6" hits="1" branch="false"/>
+						<line number="10" hits="2" branch="false"/>
+						<line number="14" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+					</lines>
+				</class>
+				<class name="videostore.Price" filename="videostore/Price.java" line-rate="0.5" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="21" branch="false"/>
+							</lines>
+						</method>
+						<method name="getFrequentRenterPoints" signature="(I)I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="36" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="21" branch="false"/>
+						<line number="36" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="videostore.RegularPrice" filename="videostore/RegularPrice.java" line-rate="1.0" branch-rate="0.5" complexity="1.5">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="getCharge" signature="(I)D" line-rate="1.0" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="10" hits="4" branch="false"/>
+								<line number="11" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="12" hits="4" branch="false"/>
+								<line number="13" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="getPriceCode" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="6" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="7" branch="false"/>
+						<line number="6" hits="2" branch="false"/>
+						<line number="10" hits="4" branch="false"/>
+						<line number="11" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="12" hits="4" branch="false"/>
+						<line number="13" hits="4" branch="false"/>
+					</lines>
+				</class>
+				<class name="videostore.Rental" filename="videostore/Rental.java" line-rate="1.0" branch-rate="0.75" complexity="1.6">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lvideostore/Movie;I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="8" hits="21" branch="false"/>
+								<line number="9" hits="21" branch="false"/>
+								<line number="10" hits="21" branch="false"/>
+								<line number="11" hits="21" branch="false"/>
+							</lines>
+						</method>
+						<method name="getCharge" signature="()D" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="50" hits="10" branch="false"/>
+							</lines>
+						</method>
+						<method name="getDaysRented" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="14" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="getFrequentRenterPoints" signature="(I)I" line-rate="1.0" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="58" hits="5" branch="true" condition-coverage="75% (3/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="59" hits="1" branch="false"/>
+								<line number="61" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="getMovie" signature="()Lvideostore/Movie;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="18" hits="6" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="8" hits="21" branch="false"/>
+						<line number="9" hits="21" branch="false"/>
+						<line number="10" hits="21" branch="false"/>
+						<line number="11" hits="21" branch="false"/>
+						<line number="14" hits="5" branch="false"/>
+						<line number="18" hits="6" branch="false"/>
+						<line number="50" hits="10" branch="false"/>
+						<line number="58" hits="5" branch="true" condition-coverage="75% (3/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="59" hits="1" branch="false"/>
+						<line number="61" hits="4" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

@@ -1,0 +1,63 @@
+2017-05-21 16:05:31,385 [Worker-113] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RefactoringKevin:RefactoringKevin:0.0.1-SNAPSHOT @ C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\pom.xml.
+2017-05-21 16:05:32,664 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-21 16:05:32,669 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\src\main\resources
+2017-05-21 16:05:32,671 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-21 16:05:32,676 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\src\test\resources
+2017-05-21 16:05:32,700 [Worker-113] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RefactoringKevin/src
+2017-05-21 16:05:32,703 [Worker-113] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RefactoringKevin/test
+2017-05-21 16:05:32,890 [Worker-113] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-05-21 16:05:33,267 [Worker-113] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RefactoringKevin:RefactoringKevin:0.0.1-SNAPSHOT @ C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\pom.xml.
+2017-05-21 16:05:33,523 [Worker-113] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RefactoringKevin/src
+2017-05-21 16:05:33,526 [Worker-113] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RefactoringKevin/test
+2017-05-21 16:05:33,581 [Worker-113] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-05-21 16:05:33,791 [Worker-109] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-21 16:05:33,796 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\src\main\resources
+2017-05-21 16:05:33,798 [Worker-109] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-21 16:05:33,802 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\src\test\resources
+2017-05-21 16:20:31,441 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin
+2017-05-21 16:20:31,444 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-05-21 16:20:33,876 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RefactoringKevin:RefactoringKevin:0.0.1-SNAPSHOT @ C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\pom.xml.
+2017-05-21 16:20:34,586 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-21 16:20:34,591 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\src\main\resources
+2017-05-21 16:20:34,593 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-21 16:20:34,597 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\src\test\resources
+2017-05-21 16:20:35,896 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-21 16:20:35,901 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\src\main\resources
+2017-05-21 16:20:35,903 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-21 16:20:35,908 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\src\test\resources
+2017-05-21 16:20:46,153 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin
+2017-05-21 16:20:46,153 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B generate-sources
+2017-05-21 16:21:16,435 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin
+2017-05-21 16:21:16,435 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-05-21 16:21:17,810 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-21 16:21:17,818 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\src\main\resources
+2017-05-21 16:21:17,818 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-21 16:21:17,823 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\src\test\resources
+2017-05-21 16:21:22,912 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin
+2017-05-21 16:21:22,915 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-05-21 16:21:33,062 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-21 16:21:33,069 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\src\main\resources
+2017-05-21 16:21:33,073 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-21 16:21:33,080 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\src\test\resources
+2017-05-21 16:22:10,529 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin
+2017-05-21 16:22:10,529 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-05-21 16:22:11,913 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-21 16:22:11,921 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\src\main\resources
+2017-05-21 16:22:11,925 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-21 16:22:11,933 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\src\test\resources
+2017-05-21 16:24:09,284 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin
+2017-05-21 16:24:09,287 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-05-21 16:24:11,295 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-21 16:24:11,300 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\src\main\resources
+2017-05-21 16:24:11,302 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-21 16:24:11,307 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\src\test\resources
+2017-05-21 16:25:33,518 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-05-21 16:25:59,563 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-05-21 16:26:00,074 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RefactoringKevin:RefactoringKevin:0.0.1-SNAPSHOT @ C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\pom.xml.
+2017-05-21 16:26:00,305 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RefactoringKevin/src
+2017-05-21 16:26:00,306 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RefactoringKevin/test
+2017-05-21 16:26:00,577 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-05-21 16:26:00,929 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-21 16:26:00,934 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\src\main\resources
+2017-05-21 16:26:00,936 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-21 16:26:00,941 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kevin\Universidad\4º Grado\Procesos de Ingeniería del Software II\Prácticas\Actividad08\RefactoringKevin\src\test\resources
