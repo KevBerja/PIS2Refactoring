@@ -2,7 +2,7 @@ GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_
 RefactoringKevin,videostore,Movie,52,0,4,0,17,0,9,0,6,0
 RefactoringKevin,videostore,NewReleasePrice,17,0,2,0,4,0,5,0,4,0
 RefactoringKevin,videostore,Price,5,0,0,0,2,0,2,0,2,0
-RefactoringKevin,videostore,Customer,279,0,16,0,55,0,17,0,8,0
+RefactoringKevin,videostore,Customer,223,0,8,0,43,0,11,0,7,0
 RefactoringKevin,videostore,ChildrensPrice,21,0,2,0,6,0,4,0,3,0
 RefactoringKevin,videostore,Rental,33,0,4,0,10,0,7,0,5,0
 RefactoringKevin,videostore,RegularPrice,21,0,2,0,6,0,4,0,3,0

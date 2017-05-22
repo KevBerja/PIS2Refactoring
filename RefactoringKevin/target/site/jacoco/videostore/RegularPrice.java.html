@@ -2,15 +2,17 @@
 
 <span class="nc" id="L3">class RegularPrice extends Price {</span>
 	
+	@Override
 	int getPriceCode() {
-<span class="nc" id="L6">		return Movie.REGULAR;</span>
+<span class="nc" id="L7">		return Movie.REGULAR;</span>
 	}
 	
+	@Override
 	double getCharge(int daysRented) {
-<span class="nc" id="L10">		double result = 2;</span>
-<span class="nc bnc" id="L11" title="All 2 branches missed.">		if (daysRented &gt; 2)</span>
-<span class="nc" id="L12">			result += (daysRented - 2) * 1.5;</span>
-<span class="nc" id="L13">		return result;</span>
+<span class="nc" id="L12">		double result = 2;</span>
+<span class="nc bnc" id="L13" title="All 2 branches missed.">		if (daysRented &gt; 2)</span>
+<span class="nc" id="L14">			result += (daysRented - 2) * 1.5;</span>
+<span class="nc" id="L15">		return result;</span>
 	}
 }
 

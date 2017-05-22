@@ -118,4 +118,22 @@ public class TestsVideoStore {
 
 			assertEquals("<H1>Rentals for <EM>Alberto</EM></H1><P>\nTitanic: 14.0<BR>\n<P>You owe <EM>14.0</EM><P>\nOn this rental you earned <EM>1</EM> frequent renter points<P>", statementHTML);
 		}
+
+		@Test
+		public void testMoviePriceCode() {
+			Movie movie = new Movie("Bebe jefazo", 1);
+			int price = movie.getPriceCode();
+			
+			assertEquals(price, 1);
+		}
+		
+		@Test
+
+		public void testDaysRented() {
+			Rental rental = this.rFastandfurious;
+			int days = rental.getDaysRented();
+			
+			assertEquals(days, 4);
+
+		}
 }

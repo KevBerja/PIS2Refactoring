@@ -1,23 +1,21 @@
 
-ksquid:S1153†"1Directly append the argument of String.valueOf().(‡ƒ¨ÿÿÿÿÿ8´ƒœÙÂ+H¹RMINORZ
+jsquid:S1153J"1Directly append the argument of String.valueOf().(‡ƒ¨ÿÿÿÿÿ8´ƒœÙÂ+HËRMINORZ
 CODE_SMELL
-Psquid:S1643G"Use a StringBuilder instead.(úÀ‚ì8îÅ™©Â+H‡RMINORZ
+jsquid:S1153!"1Directly append the argument of String.valueOf().(ÂÙ¼ìøÿÿÿÿ8´ƒœÙÂ+HÅRMINORZ
 CODE_SMELL
-msquid:S1481"9Remove this unused "frequentRenterPoints" local variable.(†¼áŞ8Ş›¶ÕÂ+H‘RMINORZ
+Usquid:S1643G"Use a StringBuilder instead.(çâıùÿÿÿÿ8îÅ™©Â+HÈRMINORZ
 CODE_SMELL
-ksquid:S1153ƒ"1Directly append the argument of String.valueOf().(çâıùÿÿÿÿ8´ƒœÙÂ+H¸RMINORZ
+isquid:S1481"0Remove this unused "totalAmount" local variable.(¾éôÖûÿÿÿÿ8¶É¯ÕÂ+HÊRMINORZ
 CODE_SMELL
-isquid:S1481"0Remove this unused "totalAmount" local variable.(¾éôÖûÿÿÿÿ8¶É¯ÕÂ+HˆRMINORZ
+Psquid:S1643 "Use a StringBuilder instead.(úÀ‚ì8´ƒœÙÂ+HÂRMINORZ
 CODE_SMELL
-jsquid:S1153H"1Directly append the argument of String.valueOf().(ÂÙ¼ìøÿÿÿÿ8´ƒœÙÂ+H·RMINORZ
+squid:S1149	"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Š£Ä±úÿÿÿÿ8·ü¡©Â+HÃRMAJORZ
 CODE_SMELL
-squid:S1149	"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Š£Ä±úÿÿÿÿ8·ü¡©Â+H†RMAJORZ
+esquid:S1153&"1Directly append the argument of String.valueOf().(¡¶Ôş8îÅ™©Â+HÌRMINORZ
 CODE_SMELL
-esquid:S1153M"1Directly append the argument of String.valueOf().(¡¶Ôş8îÅ™©Â+H…RMINORZ
+jsquid:S1153'"1Directly append the argument of String.valueOf().(§ÎËËÿÿÿÿÿ8´ƒœÙÂ+HÉRMINORZ
 CODE_SMELL
-Vsquid:S1643ƒ"Use a StringBuilder instead.(çâıùÿÿÿÿ8´ƒœÙÂ+H¶RMINORZ
+jsquid:S1153K"1Directly append the argument of String.valueOf().(Ûôõóùÿÿÿÿ8îÅ™©Â+HÄRMINORZ
 CODE_SMELL
-jsquid:S1153N"1Directly append the argument of String.valueOf().(§ÎËËÿÿÿÿÿ8îÅ™©Â+H„RMINORZ
-CODE_SMELL
-ksquid:S1153‡"1Directly append the argument of String.valueOf().(Ûôõóùÿÿÿÿ8´ƒœÙÂ+HºRMINORZ
+jsquid:S1153G"1Directly append the argument of String.valueOf().(çâıùÿÿÿÿ8´ƒœÙÂ+HÇRMINORZ
 CODE_SMELL

@@ -2,16 +2,19 @@
 
 <span class="nc" id="L3">class NewReleasePrice extends Price {</span>
 	
+	@Override
 	int getPriceCode() {
-<span class="nc" id="L6">		return Movie.NEW_RELEASE;</span>
+<span class="nc" id="L7">		return Movie.NEW_RELEASE;</span>
 	}
 	
+	@Override
 	double getCharge(int daysRented) {
-<span class="nc" id="L10">		return daysRented * 3;</span>
+<span class="nc" id="L12">		return daysRented * 3;</span>
 	}
 	
+	@Override
 	int getFrequentRenterPoints(int daysRented) {
-<span class="nc bnc" id="L14" title="All 2 branches missed.">		return (daysRented &gt; 1) ? 2: 1;</span>
+<span class="nc bnc" id="L17" title="All 2 branches missed.">		return (daysRented &gt; 1) ? 2: 1;</span>
 	}
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.8.201612092310</span></div></body></html>

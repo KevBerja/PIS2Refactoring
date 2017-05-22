@@ -1,5 +1,5 @@
 projectKey=RefactoringKevin:RefactoringKevin
 serverUrl=http://192.168.67.25
 dashboardUrl=http://192.168.67.25/dashboard/index/RefactoringKevin:RefactoringKevin
-ceTaskId=AVwrcf59e5jbaXaHVDMe
-ceTaskUrl=http://192.168.67.25/api/ce/task?id=AVwrcf59e5jbaXaHVDMe
+ceTaskId=AVwvvgyje5jbaXaHVDMp
+ceTaskUrl=http://192.168.67.25/api/ce/task?id=AVwvvgyje5jbaXaHVDMp

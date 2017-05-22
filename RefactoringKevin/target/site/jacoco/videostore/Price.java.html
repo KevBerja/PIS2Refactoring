@@ -5,35 +5,8 @@
 	abstract int getPriceCode();
 	abstract double getCharge(int daysRented);
 
-	/*double getCharge(int daysRented) {
-		double result = 0;
-		switch (getPriceCode()) {
-		case Movie.REGULAR:
-			result += 2;
-			if (daysRented &gt; 2)
-				result += (daysRented - 2) * 1.5;
-			break;
-		case Movie.NEW_RELEASE:
-			result += daysRented * 3;
-			break;
-		case Movie.CHILDRENS:
-			result += 1.5;
-			if (daysRented &gt; 3)
-				result += (daysRented - 3) * 1.5;
-			break;
-		}
-		return result;
-	}*/
-	
-	/*int getFrequentRenterPoints(int daysRented) {
-		if ((getPriceCode() == Movie.NEW_RELEASE) &amp;&amp; daysRented &gt; 1)
-			return 2;
-		else
-			return 1;
-	}*/
-	
 	int getFrequentRenterPoints(int daysRented){
-<span class="nc" id="L36">		return 1;</span>
+<span class="nc" id="L9">		return 1;</span>
 	}
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.8.201612092310</span></div></body></html>

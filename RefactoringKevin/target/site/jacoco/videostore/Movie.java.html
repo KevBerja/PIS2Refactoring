@@ -6,81 +6,44 @@ public class Movie {
 	public static final int REGULAR = 0;
 	public static final int NEW_RELEASE = 1;
 	private String _title;
-	private int _priceCode;
 	private Price _price;
 	
 
-<span class="nc" id="L13">	public Movie(String title, int priceCode) {</span>
-<span class="nc" id="L14">		_title = title;</span>
-		//_priceCode = priceCode;
-<span class="nc" id="L16">		setPriceCode(priceCode);</span>
-<span class="nc" id="L17">	}</span>
-
-	/*public int getPriceCode() {
-		return _priceCode;
-	}
-
-	public void setPriceCode(int arg) {
-		_priceCode = arg;
-	}*/
+<span class="nc" id="L12">	public Movie(String title, int priceCode) {</span>
+<span class="nc" id="L13">		_title = title;</span>
+<span class="nc" id="L14">		setPriceCode(priceCode);</span>
+<span class="nc" id="L15">	}</span>
 
 	public String getTitle() {
-<span class="nc" id="L28">		return _title;</span>
+<span class="nc" id="L18">		return _title;</span>
 	}
 	
-	/*double getCharge(int daysRented) {
-		double result = 0;
-		switch (getPriceCode()) {
-		case Movie.REGULAR:
-			result += 2;
-			if (daysRented &gt; 2)
-				result += (daysRented - 2) * 1.5;
-			break;
-		case Movie.NEW_RELEASE:
-			result += daysRented * 3;
-			break;
-		case Movie.CHILDRENS:
-			result += 1.5;
-			if (daysRented &gt; 3)
-				result += (daysRented - 3) * 1.5;
-			break;
-		}
-		return result;
-	}*/
-	
-	/*int getFrequentRenterPoints(int daysRented) {
-		if ((getPriceCode() == Movie.NEW_RELEASE) &amp;&amp; daysRented &gt; 1)
-			return 2;
-		else
-			return 1;
-	}*/
-	
 	public int getPriceCode() {
-<span class="nc" id="L59">		return _price.getPriceCode();</span>
+<span class="nc" id="L22">		return _price.getPriceCode();</span>
 	}
 
 	public void setPriceCode(int arg) {
-<span class="nc bnc" id="L63" title="All 4 branches missed.">		switch (arg) {</span>
+<span class="nc bnc" id="L26" title="All 4 branches missed.">		switch (arg) {</span>
 		case REGULAR:
-<span class="nc" id="L65">			_price = new RegularPrice();</span>
-<span class="nc" id="L66">			break;</span>
+<span class="nc" id="L28">			_price = new RegularPrice();</span>
+<span class="nc" id="L29">			break;</span>
 		case CHILDRENS:
-<span class="nc" id="L68">			_price = new ChildrensPrice();</span>
-<span class="nc" id="L69">			break;</span>
+<span class="nc" id="L31">			_price = new ChildrensPrice();</span>
+<span class="nc" id="L32">			break;</span>
 		case NEW_RELEASE:
-<span class="nc" id="L71">			_price = new NewReleasePrice();</span>
-<span class="nc" id="L72">			break;</span>
+<span class="nc" id="L34">			_price = new NewReleasePrice();</span>
+<span class="nc" id="L35">			break;</span>
 		default:
-<span class="nc" id="L74">			throw new IllegalArgumentException(&quot;Incorrect Price Code&quot;);</span>
+<span class="nc" id="L37">			throw new IllegalArgumentException(&quot;Incorrect Price Code&quot;);</span>
 		}
-<span class="nc" id="L76">	}</span>
+<span class="nc" id="L39">	}</span>
 	
 	double getCharge(int daysRented) {
-<span class="nc" id="L79">		return _price.getCharge(daysRented);</span>
+<span class="nc" id="L42">		return _price.getCharge(daysRented);</span>
 	}
 	
 	int getFrequentRenterPoints(int daysRented) {
-<span class="nc" id="L83">		return _price.getFrequentRenterPoints(daysRented);</span>
+<span class="nc" id="L46">		return _price.getFrequentRenterPoints(daysRented);</span>
 	}
 
 }

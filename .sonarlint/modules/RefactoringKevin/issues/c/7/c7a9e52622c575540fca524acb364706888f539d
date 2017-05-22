@@ -1,7 +1,7 @@
 
-nsquid:S1610"5Convert the abstract class "Price" into an interface.(Ú¸Ç¤ûÿÿÿÿ8ËÌıÙÂ+HËRMINORZ
+nsquid:S1610"5Convert the abstract class "Price" into an interface.(Ú¸Ç¤ûÿÿÿÿ8ËÌıÙÂ+HìRMINORZ
 CODE_SMELL
-msquid:S3400$"9Remove this method and declare a constant for this value.(È¸å8î³¶ÚÂ+HñRMINORZ
+msquid:S3400	"9Remove this method and declare a constant for this value.(È¸å8î³¶ÚÂ+HîRMINORZ
 CODE_SMELL
-jsquid:S1172#"1Remove this unused method parameter "daysRented".(Ø®¼Íûÿÿÿÿ8î³¶ÚÂ+HòRMAJORZ
+jsquid:S1172"1Remove this unused method parameter "daysRented".(Ø®¼Íûÿÿÿÿ8£ÖöüÂ+H„RMAJORZ
 CODE_SMELL

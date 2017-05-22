@@ -18,47 +18,15 @@ class Rental {
 <span class="nc" id="L18">		return _movie;</span>
 	}
 	
-	/*int getFrequentRenterPoints() {
-		if ((getMovie().getPriceCode() == Movie.NEW_RELEASE) &amp;&amp; getDaysRented() &gt; 1)
-			return 2;
-		else
-			return 1;
-	}*/
-	
-	
-	/*double getCharge() {
-		double result = 0;
-		switch (getMovie().getPriceCode()) {
-		case Movie.REGULAR:
-			result += 2;
-			if (getDaysRented() &gt; 2)
-				result += (getDaysRented() - 2) * 1.5;
-			break;
-		case Movie.NEW_RELEASE:
-			result += getDaysRented() * 3;
-			break;
-		case Movie.CHILDRENS:
-			result += 1.5;
-			if (getDaysRented() &gt; 3)
-				result += (getDaysRented() - 3) * 1.5;
-			break;
-		}
-		return result;
-	}*/
-	
 	double getCharge() {
-<span class="nc" id="L50">		return _movie.getCharge(_daysRented);</span>
+<span class="nc" id="L22">		return _movie.getCharge(_daysRented);</span>
 	}
 	
-	/*int getFrequentRenterPoints() {
-		return _movie.getFrequentRenterPoints(_daysRented);
-	}*/
-	
 	int getFrequentRenterPoints(int daysRented) {
-<span class="nc bnc" id="L58" title="All 4 branches missed.">		if ((_movie.getPriceCode() == Movie.NEW_RELEASE) &amp;&amp; daysRented &gt; 1)</span>
-<span class="nc" id="L59">			return 2;</span>
+<span class="nc bnc" id="L26" title="All 4 branches missed.">		if ((_movie.getPriceCode() == Movie.NEW_RELEASE) &amp;&amp; daysRented &gt; 1)</span>
+<span class="nc" id="L27">			return 2;</span>
 		else
-<span class="nc" id="L61">			return 1;</span>
+<span class="nc" id="L29">			return 1;</span>
 	}
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.8.201612092310</span></div></body></html>
